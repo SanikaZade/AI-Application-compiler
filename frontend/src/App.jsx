@@ -62,7 +62,7 @@ export default function App() {
   const fetchHistory = async () => {
     setHistoryLoading(true)
     try {
-      const res = await axios.get('/api/pipeline/history')
+      const res = await axios.get('https://ai-application-compiler-6.onrender.com/api/pipeline/history')
       setCompileHistory(res.data)
     } catch (e) {
       console.error(e)
@@ -73,7 +73,7 @@ export default function App() {
 
   const loadLatestEvaluation = async () => {
     try {
-      const res = await axios.get('/api/evaluate/latest')
+      const res = await axios.getaxios.get('https://ai-application-compiler-6.onrender.com/api/evaluate/latest')
       setEvaluationSuite(res.data)
     } catch (e) {
       console.error(e)
@@ -100,7 +100,7 @@ export default function App() {
     })
 
     try {
-      const res = await axios.post('/api/pipeline/run', { prompt: targetPrompt })
+      const res = await axios.postaxios.post('https://ai-application-compiler-6.onrender.com/api/pipeline/run', { prompt: targetPrompt })
       const data = res.data
       setCurrentRun(data)
 
@@ -156,7 +156,7 @@ export default function App() {
   // Load a run from past history
   const handleLoadHistory = async (runId) => {
     try {
-      const res = await axios.get(`/api/pipeline/runs/${runId}`)
+      const res = await axios.getaxios.get(`https://ai-application-compiler-6.onrender.com/api/pipeline/runs/${runId}`)
       const payload = res.data
       
       setCurrentRun({
@@ -189,7 +189,7 @@ export default function App() {
   const handleRunEvaluation = async () => {
     setEvaluating(true)
     try {
-      const res = await axios.post('/api/evaluate/run')
+      const res = await axios.post('https://ai-application-compiler-6.onrender.com/api/evaluate/run')
       setEvaluationSuite(res.data)
     } catch (e) {
       console.error(e)
