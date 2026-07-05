@@ -14,10 +14,6 @@ The project demonstrates how Artificial Intelligence and software engineering pr
 
 ---
 
-# Application Preview
-
----
-
 # Features
 
 - Converts natural language prompts into structured AI application blueprints.
