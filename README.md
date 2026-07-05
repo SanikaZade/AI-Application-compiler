@@ -16,20 +16,6 @@ The project demonstrates how Artificial Intelligence and software engineering pr
 
 # Application Preview
 
-> Replace the placeholders below with your screenshots.
-
-## Home Page
-![Home](docs/home.png)
-
-## Pipeline Execution
-![Pipeline](docs/pipeline.png)
-
-## Evaluation Dashboard
-![Dashboard](docs/dashboard.png)
-
-## Runtime Report
-![Runtime](docs/runtime.png)
-
 ---
 
 # Features
