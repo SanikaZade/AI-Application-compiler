@@ -79,9 +79,7 @@ AI Application Compiler
 ---
 
 # Technology Stack
-
 ## Frontend
-
 - React
 - Vite
 - JavaScript
@@ -90,7 +88,6 @@ AI Application Compiler
 - Lucide React
 
 ## Backend
-
 - Python
 - FastAPI
 - SQLAlchemy
@@ -98,11 +95,9 @@ AI Application Compiler
 - Uvicorn
 
 ## Database
-
 - SQLite
 
 ## Development Tools
-
 - Visual Studio Code
 - Git
 - GitHub
