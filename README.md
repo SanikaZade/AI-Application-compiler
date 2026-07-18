@@ -192,12 +192,6 @@ Build an AI-powered resume screening platform that ranks candidates based on ski
 
 ---
 
-# Why This Project?
-
-This project automates the planning phase of AI application development using a compiler-inspired workflow. It demonstrates modern AI engineering, modular software architecture, automated validation, and intelligent workflow design.
-
----
-
 # Future Enhancements
 
 - Multi-LLM support
