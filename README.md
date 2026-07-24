@@ -204,4 +204,3 @@ Build an AI-powered resume screening platform that ranks candidates based on ski
 - Additional optimization stages
 
 
-
