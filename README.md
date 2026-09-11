@@ -1,6 +1,6 @@
 # AI Application Compiler
 
-> Transform application ideas into structured AI application blueprints using an automated compiler-inspired pipeline.
+ Transform application ideas into structured AI application blueprints using an automated compiler-inspired pipeline.
 
 ---
 
